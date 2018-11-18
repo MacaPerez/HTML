@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /img/trello/
+sitemaps: https://macaperez.github.io/UOC-HTML/sitemap.xml
