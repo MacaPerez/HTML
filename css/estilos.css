@@ -1,0 +1,164 @@
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+body {
+  padding-top: 100px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+
+.navbar-light {
+  background-color: rgba(255, 255, 255, 0.77) !important;
+  box-shadow: 0 4.5px 6px rgba(160,160,160,.6);
+}
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  background: url("../images/logo2.png")no-repeat 0 0 rgb(150, 150, 150);
+  border-radius: 50%;
+}
+
+input.search-icon {
+  background: url("../images/icon_search.svg") no-repeat 0 0 #ffffff !important;
+  background-position: 160px 5px !important;
+  border-radius: 40px !important;
+  max-width: 200px !important;
+  margin-right: 3em !important;
+  box-shadow: 0 3px 4px rgba(160,160,160,.6) !important;
+}
+input.search-icon {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 0 0.2rem rgba(54, 54, 54, 0.27) !important;
+}
+
+#social-icon1, #social-icon2, #social-icon3, #social-icon4 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding-left: 3px;
+}
+#fb {
+  background: url("../images/sprite_icons.png") no-repeat left bottom;
+  padding-top: 34px
+}
+#fb:hover, #fb:focus{
+  background: url("../images/sprite_icons.png") no-repeat left top;
+}
+#tw {
+  background: url("../images/sprite_icons.png") no-repeat -52px bottom;
+  padding-top: 34px
+}
+#tw:hover, #tw:focus{
+  background: url("../images/sprite_icons.png") no-repeat -52px top;
+}
+#pn {
+  background: url("../images/sprite_icons.png") no-repeat -105px bottom;
+  padding-top: 34px
+}
+#pn:hover, #pn:focus{
+  background: url("../images/sprite_icons.png") no-repeat -105px top;
+}
+#in {
+  background: url("../images/sprite_icons.png") no-repeat -159px bottom;
+  padding-top: 34px
+}
+#in:hover, #in:focus{
+  background: url("../images/sprite_icons.png") no-repeat -159px top;
+}
+
+.container {
+  width: 960px;
+}
+div.main-banner {
+  position: absolute;
+  z-index: 2;
+  margin-left: -40px;
+   margin-top: 100px;
+}
+
+.h2 {
+  margin: 0.6em 0 0.6em 0;
+}
+
+/* Estilo para textos en blanco y sombra. Para lograr legibilidad en el constraste*/
+.sombra {
+  color: white;
+  text-shadow: 0 2px 2px rgba(65, 65, 65, 0.66);
+}
+h4.display-4 {
+  font-size: 2.5em;
+}
+
+div.destino {
+  max-width: 20rem;
+}
+div.card-img-top {
+  width: 100%;
+}
+
+.footer {
+  font-size: 0.7em;
+  background-color: rgba(180, 180, 180, 0.89);
+}
+.footer-links-head {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+
+a.second-menu-link,
+a.footer-link {
+  color: #282828;
+}
+
+a.second-menu-link:hover,
+a.second-menu-link:focus {
+  color: rgb(7, 9, 7);
+  text-decoration: underline;
+}
+
+a.second-menu-link:link,
+a.second-menu-link:active {
+  color: #065b7a;
+}
+
+
+a.footer-link:hover,
+a.footer-link:focus,
+a.footer-link:active  {
+  color: white;
+
+}
+div.row-copyright {
+  margin-top: 10px;
+  color: white;
+}
+span {
+  font-style: italic;
+}
+ul.third-menu {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
